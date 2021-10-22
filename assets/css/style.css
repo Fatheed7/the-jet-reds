@@ -12,6 +12,6 @@
   text-align: center;
 }
 
-.carousel {
-  padding-top: 60px;
+#topCarousel {
+  margin-top: 60px;
 }
