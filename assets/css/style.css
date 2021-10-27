@@ -5,7 +5,14 @@
 }
 
 /* For Testing Purposes */
+.col {
+  text-align: center;
+}
 
+#aboutImage {
+  justify-content: center;
+  align-content: center;
+}
 /* For Testing Purposes */
 
 .nav-item {
