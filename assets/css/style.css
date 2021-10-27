@@ -4,6 +4,50 @@
   border: 0;
 }
 
+/* To Move Body Below Navbar */
+body {
+  padding-top: 3.7rem;
+  position: relative;
+}
+
+/* To Move Anchor Links Below Navbar */
+
+#home,
+#about,
+#media,
+#events,
+#contact,
+#backToTop {
+  scroll-margin-top: 3.7rem;
+}
+
+.nav-item {
+  text-align: center;
+}
+
+.carousel-inner > .carousel-item > img {
+  max-height: 63vh;
+  object-fit: cover;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 20px;
+}
+
+#footerRow a,
+#footerRow {
+  color: #fafafa;
+  text-decoration: none;
+  font-weight: bold;
+  align-content: center;
+}
+
+.fab {
+  font-size: 40px;
+  margin: 0 5px 0 5px;
+}
+
 /* For Testing Purposes */
 .col {
   text-align: center;
@@ -25,12 +69,5 @@
 #backToTop {
   text-align: left;
 }
+
 /* For Testing Purposes */
-
-.nav-item {
-  text-align: center;
-}
-
-#topCarousel {
-  margin-top: 60px;
-}
