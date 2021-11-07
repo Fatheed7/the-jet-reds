@@ -144,4 +144,8 @@ footer {
   background-color: darkgoldenrod;
 }
 
+#carouselText {
+  background: rgba(0, 0, 0, 0.7);
+}
+
 /* For Testing Purposes */
