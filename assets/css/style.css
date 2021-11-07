@@ -37,7 +37,8 @@ body {
 /* About Styling */
 
 #about {
-  margin-bottom: 25px;
+  margin: 25px 0;
+  background-color: gray;
 }
 
 .aboutText {
@@ -46,8 +47,7 @@ body {
 }
 
 #aboutImage {
-  justify-content: center;
-  align-content: center;
+  overflow: hidden;
 }
 
 /* Media Styling */
