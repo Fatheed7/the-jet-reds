@@ -47,7 +47,11 @@ body {
 }
 
 #aboutImage {
-  overflow: hidden;
+  background-image: url("../img/about_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50%;
+  background-position: center;
 }
 
 /* Media Styling */
