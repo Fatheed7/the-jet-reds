@@ -12,6 +12,7 @@ body {
 
 .col {
   text-align: center;
+  margin: 25px;
 }
 
 /* To Move Anchor Links Below Navbar */
@@ -34,14 +35,22 @@ body {
   object-fit: cover;
 }
 
+.topShadow {
+  -webkit-box-shadow: inset 0px 15px 5px -3px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: inset 0px 15px 5px -3px rgba(50, 50, 50, 0.75);
+  box-shadow: inset 0px 15px 5px -3px rgba(50, 50, 50, 0.75);
+}
+
 /* About Styling */
 
 #about {
-  margin: 25px 0;
   background-color: gray;
 }
 
-.aboutText {
+.aboutText,
+.mediaText,
+.eventText,
+.contactText {
   margin: 15px;
   padding: 35px;
 }
@@ -52,30 +61,34 @@ body {
   background-repeat: no-repeat;
   padding-top: 50%;
   background-position: center;
+  border-radius: 10%;
 }
 
 /* Media Styling */
 
-.mediaText {
-  margin: 15px;
-  padding: 35px;
-}
-
-.singleContainer {
+.singleContainer,
+.albumContainer {
   text-align: center;
 }
 
 .singleCover {
-  height: 100%;
-  width: 75%;
+  max-height: 100%;
+  max-width: 75%;
+  width: auto;
+  height: auto;
+}
+
+.albumCover {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
 }
 
 /* Event Styling */
 
 .eventText {
   background: rgba(255, 255, 255, 0.7);
-  margin: 15px;
-  padding: 50px;
 }
 
 h4,
@@ -84,11 +97,6 @@ h5 {
 }
 
 /* Contact Styling */
-
-.contactText {
-  margin: 15px;
-  padding: 35px;
-}
 
 #contactForm {
   width: 50%;
@@ -101,9 +109,6 @@ h5 {
 }
 
 /* Footer Styling */
-footer {
-  margin-top: 20px;
-}
 
 #footerRow a,
 #footerRow {
