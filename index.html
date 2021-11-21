@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Jet Reds |</title>
     <link href="assets/css/style.css" rel="stylesheet" />
+    <!--                                            Google Font Import                                            -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
     <!--                                            Font Awesome Import                                            -->
     <script
       src="https://kit.fontawesome.com/8c64c4aa11.js"
@@ -17,7 +21,7 @@
       <!--                                            Start of Navbar                                            -->
       <nav class="navbar navbar-expand-md navbar-dark bg-danger fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"
+          <a class="navbar-brand" href=""
             ><img
               src="assets/img/jr_logo.png"
               height="32vh"
@@ -115,11 +119,7 @@
                 classic."
               </h5>
               <p>
-                <a
-                  href="https://www.spotlightuk.co.uk/articles/2018/6/28/album-review-the-jet-reds-what-were-looking-for"
-                  target="_blank"
-                  >Spotlight</a
-                >
+                Spotlight
               </p>
             </div>
           </div>
@@ -160,15 +160,14 @@
       </div>
     </section>
     <!--                                            End of Carousel                                           -->
-    <div class="spacer"></div>
     <!--                                            Start of About                                            -->
     <section id="about" class="topShadow">
       <div class="container">
         <div class="row">
-          <div class="col aboutText"><h2>About The Jet Reds</h2></div>
+          <div class="col"><h1>About The Jet Reds</h1></div>
         </div>
         <div class="row align-items-center">
-          <div class="col d-none d-lg-block">
+          <div class="col d-none d-lg-block aboutText whoWeAre">
             <h4>Who We Are</h4>
             <p>The Jet Reds, a 4 piece indie/rock combo from the North East.</p>
             <p>Craig Redpath - Vocalist & Guitarist</p>
@@ -177,7 +176,7 @@
             <p>Dean Ramsay - Drummer</p>
           </div>
           <div class="col d-none d-md-block" id="aboutImage"></div>
-          <div class="col">
+          <div class="col aboutText whatWeDo">
             <h4>What We Do</h4>
             <p>
               The Jet Reds are a new and exciting 4 piece combo specialising in
@@ -196,15 +195,18 @@
       </div>
     </section>
     <!--                                            End of About                                                                              -->
+
     <!--                                            Start of Media                                                                            -->
     <section id="media" class="topShadow">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col mediaText"><h2>Media Section</h2></div>
+          <div class="col">
+            <h2 class="mediaText">Media Section</h2>
+          </div>
         </div>
         <br />
-        <div class="row align-items-center">
-          <div class="col-6 col-md-6 d-none d-sm-block singleContainer">
+        <div class="row align-items-center singleContainer">
+          <div class="col-6 col-md-6 d-none d-sm-block">
             <img
               src="assets/img/JR_Single_Cover.jpg"
               alt="The cover for the Jet Reds' latest single,
@@ -246,8 +248,8 @@
           </div>
         </div>
         <br />
-        <div class="row align-items-center">
-          <div class="col-12 col-sm-6 col-md-6 albumContainer">
+        <div class="row align-items-center albumContainer">
+          <div class="col-12 col-sm-6 col-md-6">
             <h4>Latest Album Info</h4>
             <p>
               The Jet Reds' first album ‘What We’re Looking For’ was recorded
@@ -330,11 +332,12 @@
           <div class="col contactText"><h2>Contact Section</h2></div>
         </div>
         <div class="row" id="contactForm">
-          <form>
+          <form action="https://formdump.codeinstitute.net" method="POST">
             <div class="mb-3">
               <label for="nameField" class="form-label">Name</label>
               <input
                 type="text"
+                name="nameField"
                 class="form-control"
                 id="nameField"
                 placeholder="Please enter your full name"
@@ -345,6 +348,7 @@
               <label for="emailField" class="form-label">Email address</label>
               <input
                 type="email"
+                name="emailField"
                 class="form-control"
                 id="emailField"
                 placeholder="Please enter a valid email address"
@@ -361,6 +365,7 @@
               >
               <select
                 class="form-select"
+                name="contactReason"
                 id="contactReason"
                 aria-label="What do you wish to contact us about?"
                 required
@@ -379,6 +384,7 @@
               >
               <textarea
                 class="form-control"
+                name="furtherInfo"
                 id="furtherInfoBox"
                 rows="3"
                 placeholder="Please use this box to provide any further information about your reason for contacting us"
@@ -386,7 +392,11 @@
               ></textarea>
             </div>
             <div class="col text-center">
-              <button type="submit" class="btn btn-primary" id="formButtons">
+              <button
+                type="submit"
+                class="btn btn-primary"
+                id="formButtons"
+              >
                 Submit
               </button>
               <button type="reset" class="btn btn-warning" id="formButtons">
@@ -394,6 +404,8 @@
               </button>
             </div>
           </form>
+
+          </div>
         </div>
       </div>
     </section>
