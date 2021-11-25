@@ -46,6 +46,7 @@ h1 {
   -webkit-box-shadow: inset 0px 15px 5px -3px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: inset 0px 15px 5px -3px rgba(50, 50, 50, 0.75);
   box-shadow: inset 0px 15px 5px -3px rgba(50, 50, 50, 0.75);
+  z-index: -1;
 }
 
 /* Carousel Styling */
@@ -58,15 +59,34 @@ h1 {
   background-color: #fff;
 }
 
-.aboutText,
-.mediaText,
-.eventText {
-  margin: 15px;
+.aboutHeader {
   padding: 35px;
+  background: rgba(209, 209, 209, 0.7);
+  font-family: "Roboto", sans-serif;
 }
 
+.mediaText,
+.eventText,
 .contactText {
-  margin: 15px;
+  padding: 35px;
+  background: rgba(255, 255, 255, 0.7);
+  font-family: "Roboto", sans-serif;
+}
+
+.aboutHeader,
+.mediaHeader,
+.eventHeader,
+.contactHeader {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  -webkit-box-shadow: 0px 15px 5px 3px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 15px 5px 3px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 15px 5px 3px rgba(50, 50, 50, 0.75);
+}
+
+.whoWeAre,
+.whatWeDo {
+  border-radius: 10%;
 }
 
 #aboutImage {
@@ -78,12 +98,6 @@ h1 {
   border-radius: 10%;
   border-width: 2px;
   border-style: solid;
-}
-
-.aboutText {
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: 10%;
-  font-family: "Roboto", sans-serif;
 }
 
 .whoWeAre {
@@ -119,15 +133,7 @@ h1 {
   margin: 5%;
 }
 
-.mediaText {
-  background: rgba(255, 255, 255, 0.7);
-}
-
 /* Event Styling */
-
-.eventText {
-  background: rgba(255, 255, 255, 0.7);
-}
 
 h4,
 h5 {
@@ -176,7 +182,7 @@ h5 {
 /* For Testing Purposes */
 
 #media {
-  background-color: #312d2dda;
+  background-color: #d1d1d1;
 }
 
 #events {
@@ -188,7 +194,7 @@ h5 {
 }
 
 #contact {
-  background-color: white;
+  background-color: #d1d1d1;
 }
 
 /* For Testing Purposes */
