@@ -1,5 +1,4 @@
 const onContactFormSubmit = (event) => {
-  console.log("Potato");
   event.preventDefault();
 
   $("#contactForm form").get(0).reset();
