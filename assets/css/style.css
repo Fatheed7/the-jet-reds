@@ -33,6 +33,11 @@ h1 {
   scroll-margin-top: 3.7rem;
 }
 
+#media,
+#contact {
+  background-color: #d1d1d1;
+}
+
 .nav-item {
   text-align: center;
 }
@@ -69,7 +74,7 @@ h1 {
 .eventText,
 .contactText {
   padding: 35px;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.9);
   font-family: "Roboto", sans-serif;
 }
 
@@ -135,9 +140,30 @@ h1 {
 
 /* Event Styling */
 
+h3,
 h4,
 h5 {
   text-align: center;
+}
+
+#events {
+  background-image: url("../img/event_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.eventMain {
+  padding: 45px;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.eventSpacer {
+  padding-bottom: 40px;
 }
 
 /* Contact Styling */
@@ -178,23 +204,3 @@ h5 {
 #socialMedia {
   text-align: center;
 }
-
-/* For Testing Purposes */
-
-#media {
-  background-color: #d1d1d1;
-}
-
-#events {
-  background-image: url("../img/event_image.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-}
-
-#contact {
-  background-color: #d1d1d1;
-}
-
-/* For Testing Purposes */
