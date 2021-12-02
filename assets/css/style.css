@@ -55,7 +55,7 @@ h1 {
 }
 
 /* Carousel Styling */
-#carouselText {
+.carouselText {
   background: rgba(0, 0, 0, 0.7);
 }
 /* About Styling */
@@ -177,7 +177,7 @@ h5 {
   margin: 0 auto;
 }
 
-#formButtons {
+.formButtons {
   width: 35%;
   margin: 0 auto;
 }
