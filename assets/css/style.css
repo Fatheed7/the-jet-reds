@@ -64,10 +64,6 @@ h1 {
   background-color: #fff;
 }
 
-.aboutText {
-  min-width: 250px;
-}
-
 .aboutHeader {
   padding: 35px;
   background: rgba(209, 209, 209, 0.7);
@@ -96,6 +92,7 @@ h1 {
 .whoWeAre,
 .whatWeDo {
   border-radius: 10%;
+  min-width: 250px;
 }
 
 #aboutImage {
