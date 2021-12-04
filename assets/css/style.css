@@ -38,6 +38,10 @@ h1 {
   background-color: #d1d1d1;
 }
 
+#navImage {
+  width: 210px;
+}
+
 .nav-item {
   text-align: center;
 }
@@ -212,5 +216,11 @@ h5 {
   #contactForm {
     width: 100%;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 400px) {
+  #navImage {
+    width: 190px;
   }
 }
