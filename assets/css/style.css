@@ -33,22 +33,11 @@ h1 {
   scroll-margin-top: 3.7rem;
 }
 
+/* General or Multiple Section Styline */
+
 #media,
 #contact {
   background-color: #d1d1d1;
-}
-
-#navImage {
-  width: 210px;
-}
-
-.nav-item {
-  text-align: center;
-}
-
-.carousel-inner > .carousel-item > img {
-  max-height: 63vh;
-  object-fit: cover;
 }
 
 .topShadow {
@@ -58,10 +47,26 @@ h1 {
   z-index: -1;
 }
 
+/* Nav Styling */
+
+#navImage {
+  width: 210px;
+}
+
+.nav-item {
+  text-align: center;
+}
+
 /* Carousel Styling */
 .carouselText {
   background: rgba(0, 0, 0, 0.7);
 }
+
+.carousel-inner > .carousel-item > img {
+  max-height: 63vh;
+  object-fit: cover;
+}
+
 /* About Styling */
 
 #about {
@@ -181,6 +186,10 @@ h5 {
 .formButtons {
   width: 35%;
   margin: 0 auto;
+}
+
+#emailInfo {
+  color: rgb(138, 0, 0);
 }
 
 /* Footer Styling */
