@@ -66,7 +66,8 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
 
   <details>
   <summary>Collective Wireframe Image(Desktop, Tablet & Mobile)</summary>
-  ![Collective Wireframe Image](docs/wireframes/collective_wireframe.png) 
+
+  ![Collective Wireframe Image](docs/wireframes/collective_wireframe.png)
   </details>
 
   <details>
