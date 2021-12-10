@@ -13,6 +13,10 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
   - [User Stories](#user-stories)
   - [Wireframes](#wireframes)
 - [Design](#design)
+  - [Imagery](#imagery)
+  - [Colours](#colours)
+  - [Fonts](#fonts)
+  - [Favicon](#favicon)
 - [Features](#features)
   - [Header](#header)
   - [Carousel](#carousel)
@@ -94,6 +98,44 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
 ## Design
 
 #
+
+- ## Imagery
+
+  All of the images used on this website were chosen from the gallery of images currently available on [The Jet Reds Website](https://www.thejetreds.co.uk/gallery/). The main images used were for the Carousel at the top of the page and were used as they clearly show the lineup of the band, but do not detract from the footer within the carousel and contrast well with the opacity of this section.
+
+  The images in the About section was chosen as an "in action" shot, showing vocalist Craig Redpath performing live, but it was also chosen as it fits well between the bracket like borders of the about section, giving the impression of sound waves.
+
+  Both images used in the Media section are the actual artwork used for the album and single described on the site, and are used for this reason.
+
+  The image for the Event section was chosen as it sticks with the theme of basic colours of the website, and matches the black and white images used in the about section. Additionally, whilst the image shows members of the band in action, the image is not too busy and does not distract from the main elements of the Event section.
+
+- ## Colours
+
+  The colours of the website were chosen to constrast with the brightness of the header and carousel images, but to blend in with the images used in other sections. This allowed contrasting colours to be chosen which results in good readability for users. These colours were also tested using the 'Rendering' function within Google Chrome to ensure readability for users with all forms of colour blindness.
+
+  - #9B3545 - This colour was used for the header and footer of the website and was chosen due to the red theme within the bands name, but also due to the colour contrast against the default navbar text colour. A text using the Colour Contrast Analyser can be seen [here](docs/readme_images/header_colours.png).
+
+  - #d1d1d1 - This colour was used as the background for the Media and Contact sections due to it conflicting with the colours of other sections, and against the main body elements.
+
+  - #fff - This plain white colour was chosen for the about section due to its immediate contrast with the carousel images at the top of the page and due to it matching with the black and white nature of the image within the section.
+
+  - rgba(255, 255, 255, 0.7) - This colour was used for the Single and Album containers in the Media section. A white colour was chosen to contrast against the grey background, but some opacity was applied to make this colour more subtle than previous white colours used.
+
+- ## Fonts
+
+  The fonts Roboto & Lato were chosen from the options available from Google Fonts.
+
+  [Roboto](https://fonts.google.com/specimen/Roboto) was chosen as the main font for the website due to it "allowing letters to be settled into their natural width. This makes for a more natural reading rhythm", as described in the About section for the font on the [Google Fonts website](https://fonts.google.com/specimen/Roboto#about).
+
+  [Lato](https://fonts.google.com/specimen/Lato) was chosen due to the rounder nature of the font and was primarily used for the headings of each section, as well as the main content within the Events section.
+
+  These fonts were chosen with user accessibility and readability in mind, with a backup on sans-serif chosen for any instances where these fonts may not be available.
+
+- ## Favicon
+
+  The website [Favicon.io](https://favicon.io/) was used to generate the favicon image for the website. The colour #DC3545 was used for the background of the image. This was originally consistent with the colour used for the header and footer of the website, but this was then changed to #9B3545 for colour contrast reasons. I decided to stick with the originally created Favicon as it still matches the overall theme of the site and is more noticable than the alternative colour. The text was chosen to be white as this contrasts well with the chosen colour, with the font Khmer chosen for readability. Due to the limited space available the initials of the band, TJR, were chosen for the favicon. This is beneficial as it stands out and is easy identifiable when multiple tabs are open.
+
+  ![Mobile Wireframe Image](docs/readme_images/favicon.png)
 
 ## Features
 
@@ -232,17 +274,42 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
 
   #
 
+  ![Mobile Wireframe Image](docs/readme_images/single_section.png)
+
+  #
+
   - The 'Latest Single Info' section contains the single artwork on the left side, with text information about the single on the right. The image remains centered within the left column until the resolution width is below 768 pixels, at which point the image moves to the top of the section and the text information is displayed below.
+
+  <details>
+    <summary>Single Section Below 768 Pixels</summary>
+
+  ![Mobile Wireframe Image](docs/readme_images/single_responsive.png)
+  </details>
 
   #
 
   - The 'Latest Album Info' section contains the album artwork on the right side, with text information about the album on the left. The image remains centered within the right column until the resolution width is below 768 pixels. At this point the original image is hidden, and a new image appears at the top of the section, with the text information displayed below.
 
+  <details>
+  <summary>Album Section Above 768 Pixels</summary>
+
+  ![Mobile Wireframe Image](docs/readme_images/album_desktop.png)
+  </details>
+    <details>
+    <summary>Album Section Below 768 Pixels</summary>
+
+  ![Mobile Wireframe Image](docs/readme_images/album_responsive.png)
+  </details>
+
 #
 
 - ## Events Section
 
-  - The Events section has a background of guitarist Dan Richards on the left, with vocalist Craig Redpath on the right wearing a guitar strap showing the bands name. This has been set with a fixed position so different parts of the image are shown as the user scrolls down the page. This also contrasts against the rest of the website which has fixed colours.
+  - The Events section has a background of guitarist Dan Richards on the left, with vocalist Craig Redpath on the right wearing a guitar strap showing the bands name. This has been set with a fixed position so different parts of the image are shown as the user scrolls down the page. This also contrasts against the rest of the website which has fixed colours. The image used for this section can be found [here](assets/img/event_image.jpg).
+
+  #
+
+  ![Mobile Wireframe Image](docs/readme_images/events_section.png)
 
   #
 
@@ -260,13 +327,35 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
 
   #
 
+  ![Mobile Wireframe Image](docs/readme_images/form.png)
+
+  #
+
   - The form was set to require all fields to be completed as the 'Reason of Contact' options have been left intentionally vague to prompt the user to submit information.
 
   #
 
+  ![Mobile Wireframe Image](docs/readme_images/form_validation.png)
+
+  #
+
   - Both the Submit and Reset buttons were set to bright colours as a call to action to the user, but also to match with the original carousel image displayed when the page is loaded which contains those bright colours prominently.
-  - A small amount of Javascript was written to remove the default function of the Submit button and replace it with a modal response.
+
+  #
+
+  ![Mobile Wireframe Image](docs/readme_images/form_buttons.png)
+
+  #
+
+  - A small amount of Javascript was written to remove the default function of the Submit button and replace it with a modal response. The code for this can be found [here](assets/js/main.js).
+
+  #
+
   - The form has been designed in an appropriate manner with the required information and name tags applied, but does not submit the information, or display another page. Instead, a modal is displayed thanking the user for their contact and advising a response will be received soon, with two seperate buttons available to close the modal.
+
+  #
+
+  ![Mobile Wireframe Image](docs/readme_images/form_modal.png)
 
 #
 
@@ -274,13 +363,19 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
 
   - The Footer is made of three seperate sections.
 
-    - On the far left a link is displayed which, when clicked, will return the user to the top of the page.
-    - In the center, three Font Awesome icons are displayed linking to the Facebook, Twitter and Instagram profiles for the band. All links open in a new tab.
-    - On the far left is a text statement containing the phrase "It goes On & On" which is a slogan used by the band.
+  #
+
+  ![Mobile Wireframe Image](docs/readme_images/footer.png)
 
   #
 
-  - The Navbar was coloured using the Bootstrap 'Danger' colour which was used due to the red colour which is relevant to the bands' name and to match the colour of the Navbar.
+  - On the far left a link is displayed which, when clicked, will return the user to the top of the page.
+  - In the center, three Font Awesome icons are displayed linking to the Facebook, Twitter and Instagram profiles for the band. All links open in a new tab.
+  - On the far left is a text statement containing the phrase "It goes On & On" which is a slogan used by the band.
+
+  #
+
+  - The footer was coloured using the Bootstrap 'Danger' colour which was used due to the red colour which is relevant to the bands' name and to match the colour of the Navbar.
 
 #
 
@@ -322,6 +417,7 @@ The site was created using Visual Studio Code and GitHub, and deployed to GitHub
   - [Balsamiq](https://balsamiq.com/) - Used to generate Wireframe images.
   - [Bootstrap](https://getbootstrap.com/) - Main framework used for the site, with a focus on responsiveness.
   - [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development and tweaking, including testing responsiveness and performance.
+  - [Colour Contrast Analyser](https://www.tpgi.com/color-contrast-checker/) - Used to check colour contrast to ensure usability for users with visual impairements.
   - [Favicon.io](https://favicon.io) - Used to generate Favicon image.
   - [Font Awesome](https://fontawesome.com/) - Used for Social Media icons in footer.
   - [GitHub](https://github.com/) - Used for version control and hosting.
@@ -329,6 +425,7 @@ The site was created using Visual Studio Code and GitHub, and deployed to GitHub
   - [JQuery](https://en.wikipedia.org/wiki/JQuery) - Used to override default submit functionality and display modal instead.
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Used for consistent code formatting
   - [Slack](https://slack.com/) - Used for support and advice from the Code Insitute Community.
+  - [TinyPNG](https://tinypng.com/) - Used to compress images to reduce filesize without a reduction in quality.
   - [Visual Studio Code](https://code.visualstudio.com/) - Application used for development of this site.
 
 - ## Images
