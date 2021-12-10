@@ -1,5 +1,7 @@
 # The Jet Reds website
 
+![The Jet Reds - Am I Responsive Image](docs/readme_images/am_i_responsive.png)
+
 This website was created as a first portfolio project for Code Institute's Diploma in Web Application Development. The Jet Reds are a real band but, with their permission, I have created this website as I have an interest in and actively follow the band.
 
 The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
@@ -40,6 +42,8 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
   2. Provide some background information about the band, and the type of music they play.
   3. Make fans aware of any upcoming events, including venue, date and time.
 
+#
+
 - ### User Stories
 
   - #### First Time Visitor Goals
@@ -58,21 +62,34 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
 
     1. As a commercial visitor, I want to easily contact the band with any booking enquiries.
 
+  #
+
   ## Wireframes
 
   The wireframes for this site were created using Balasmiq, with each section and subsection noted. I endeavoured to create a single page website and, as such, wireframes are available for desktop view, tablet view and mobile view.
 
-  The first section below shows all views together, with the second second making individual views available.
+  The sections below show individual wireframes for different devices, with a combined image being available [here](docs/wireframes/collective_wireframe.png).
 
-  <details>
-  <summary>Collective Wireframe Image(Desktop, Tablet & Mobile)</summary>
+  The directory containing the wireframe images can be found [here](https://github.com/Fatheed7/the-jet-reds/tree/main/docs/wireframes).
 
-  ![Collective Wireframe Image](docs/wireframes/collective_wireframe.png)
-  </details>
+    <details>
 
-  <details>
-  <summary>Individual Wireframe Images</summary>
-  </details>
+    <summary>Desktop Wireframe</summary>
+
+  ![Desktop Wireframe Image](docs/wireframes/desktop_wireframe.png)
+    </details>
+
+     <details>
+    <summary>Tablet Wireframe</summary>
+
+  ![Tablet Wireframe Image](docs/wireframes/tablet_wireframe.png)
+    </details>
+
+     <details>
+    <summary>Mobile Wireframe</summary>
+
+  ![Mobile Wireframe Image](docs/wireframes/mobile_wireframe.png)
+    </details>
 
 ## Design
 
@@ -84,20 +101,30 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
 
 - ## Header
 
-  - The Navbar has a fixed position at the head of the page which sits above all other content. This was chosen over a sticky position mainly for browers compatibility, but it's function does not vary in any significant way to a fixed position.
-  - To ensure the content sat below the header, a margin was added to the top of the page. More information about this can be found in the [Bugs](#bugs) section.
+![The Jet Reds Website Navbar](docs/readme_images/navbar.png)
 
-  #
+- The Navbar has a fixed position at the head of the page which sits above all other content. This was chosen over a sticky position mainly for browers compatibility, but it's function does not vary in any significant way to a fixed position.
+- To ensure the content sat below the header, a margin was added to the top of the page. More information about this can be found in the [Bugs](#bugs) section.
 
-  - The Navbar was coloured using the Bootstrap 'Danger' colour which was used due to the red colour which is relevant to the bands' name.
+#
 
-  #
+- The Navbar was coloured using the Bootstrap 'Danger' colour which was used due to the red colour which is relevant to the bands' name.
 
-  - The logo was provided by The Jet Reds and, due to the unique font used, was retained in an image format, with CSS added to alter size as required. The logo is also a hyperlink which returns the user to the top of the website.
+![Bootstrap Danger Colour Image](docs/readme_images/colour.png)
 
-  #
+#
 
-  - The Navbar contains links to other section on the website. They are designed to be displayed as clickable links, changing to a brighter shade of white when hovered over. The displayed links disappear on screens with a resolution width below 768 pixels and are replaced with a hamburger menu.
+- The logo was provided by The Jet Reds and, due to the unique font used, was retained in an image format, with CSS added to alter size as required. The logo is also a hyperlink which returns the user to the top of the website. The image can be found [here](assets/img/jr_logo.png).
+
+#
+
+- The Navbar contains links to other section on the website. They are designed to be displayed as clickable links, changing to a brighter shade of white when hovered over.
+
+![Navbar Mouseover Image](docs/readme_images/navbar_mouseover.png)
+
+- The displayed links disappear on screens with a resolution width below 768 pixels and are replaced with a hamburger menu.
+
+![Navbar Hamburger Menu Image](docs/readme_images/navbar_hamburger.png)
 
 #
 
@@ -105,9 +132,36 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
 
   - Rather than using a static hero image, I opted to add a carousel below the header which automatically rotates after a set amount of time has elapsed, but also features controls on either side to allow navigation between images.
 
+  The images used can be found below.
+
+     <details>
+
+    <summary>Carousel Image One</summary>
+
+  ![Desktop Wireframe Image](assets/img/JR_carousel_image1.jpg)
+    </details>
+
+     <details>
+
+    <summary>Carousel Image Two</summary>
+
+  ![Desktop Wireframe Image](assets/img/JR_carousel_image2.jpg)
+    </details>
+
+     <details>
+
+    <summary>Carousel Image Three</summary>
+
+  ![Desktop Wireframe Image](assets/img/JR_carousel_image3.jpg)
+    </details>
+
   #
 
   - A div has been placed at the foot of the carousel containing real reviews of the band. The div has been coloured black with an opacity of 0.7. This has been done to contrast against the bright background of the images, but also to also some visibility so the full image can still be seen.
+
+  #
+
+  ![Navbar Hamburger Menu Image](docs/readme_images/carousel_review.png)
 
   #
 
@@ -119,7 +173,11 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
 
 - All sections begin with a shadow applied to the Section tag itself, which is replicated throughout the site. This effect was added to give the appearance of each section of the website being layered on top of the section below it, and to add some seperation between sections, instead of an immediate colour change.
 
-  #
+#
+
+![Navbar Hamburger Menu Image](docs/readme_images/section_header.png)
+
+#
 
 - The header of the each section is made up of several elements which make it appear to be protruding from the section above.
 
@@ -136,6 +194,10 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
 
   #
 
+  ![Navbar Hamburger Menu Image](docs/readme_images/about_centered.png)
+
+  #
+
   - To the left of the About section image is information the members of the band. This section has had a border radius of 10% applied, with a border of 2 pixels being applied to the right side, to give an appearance similar to a bracket, but also to highlight the edge of the section at lower resolutions.
 
   #
@@ -144,11 +206,23 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
 
   #
 
-  - Below a screen resolution width of 992 pixels the image in the center of the About section is hidden, with the remaining sections displayed side by side.
+  - Below a screen resolution width of 992 pixels the image in the center of the About section is hidden, with the remaining sections displayed side by side. An example of this can be seen below.
+
+  <details>
+    <summary>About Section Below 992 Pixels</summary>
+
+  ![Mobile Wireframe Image](docs/readme_images/below_992.png)
+  </details>
 
   #
 
-  - Below a screen resolution width of 768 pixels the image in the center of the About section remains hidden, with the remaining sections stacked on top of each other.
+  - Below a screen resolution width of 768 pixels the image in the center of the About section remains hidden, with the remaining sections stacked on top of each other.An example of this can be seen below.
+
+  <details>
+    <summary>About Section Below 768 Pixels</summary>
+
+  ![Mobile Wireframe Image](docs/readme_images/below_768.png)
+  </details>
 
 #
 
