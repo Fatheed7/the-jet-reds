@@ -39,8 +39,6 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
 
 ## UX and UI
 
-#
-
 - ### Site Owner Goals
 
   The goal of the site for the owner is to:
@@ -100,8 +98,6 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
 
 ## Design
 
-#
-
 - ## Imagery
 
   All of the images used on this website were chosen from the gallery of images currently available on [The Jet Reds Website](https://www.thejetreds.co.uk/gallery/). The main images used were for the Carousel at the top of the page and were used as they clearly show the lineup of the band, but do not detract from the footer within the carousel and contrast well with the opacity of this section.
@@ -141,8 +137,6 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
   ![Mobile Wireframe Image](docs/readme_images/favicon.png)
 
 ## Features
-
-#
 
 - ## Header
 
@@ -385,8 +379,6 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
 
 ## Deployment
 
-#
-
 The site was created using Visual Studio Code and GitHub, and deployed to GitHub pages for testing using the below process:
 
     i. Navigate to the repository on GitHub.com
@@ -400,8 +392,6 @@ The site was created using Visual Studio Code and GitHub, and deployed to GitHub
 #
 
 ## Testing
-
-#
 
 - ## Validator Testing
 
@@ -489,19 +479,13 @@ No errors were returned for all HTML or CSS across all tests. Some warnings were
 
 ## Credits
 
-#
-
 - ## Languages
-
-  #
 
   - [HTML5](https://en.wikipedia.org/wiki/HTML5)
   - [CSS](https://en.wikipedia.org/wiki/CSS)
   - [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 - ## Frameworks, Libraries and Tools
-
-  #
 
   - [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
   - [Balsamiq](https://balsamiq.com/) - Used to generate Wireframe images.
@@ -525,8 +509,6 @@ No errors were returned for all HTML or CSS across all tests. Some warnings were
 
 - ## Images
 
-  #
-
   - [The Jet Reds](https://www.thejetreds.co.uk/)
 
     - The Jet Reds Logo
@@ -549,8 +531,6 @@ No errors were returned for all HTML or CSS across all tests. Some warnings were
   #
 
 - ## Content
-
-  #
 
   - As this site is based on a real band, some content on this site is based on content from the band, with permission. The content used is as follows:
 
