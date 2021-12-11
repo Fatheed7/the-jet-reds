@@ -22,6 +22,7 @@ h1 {
   font-size: 50px;
 }
 
+h2,
 h3,
 h4,
 h5 {
@@ -88,15 +89,6 @@ h5 {
   padding: 35px;
   background: rgba(209, 209, 209, 0.7);
   font-family: "Roboto", sans-serif;
-}
-
-.aboutSectionHeader {
-  font-family: "Lato", sans-serif;
-  font-size: 1.5rem;
-
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
 }
 
 .mediaText,
@@ -170,6 +162,7 @@ h5 {
 
 /* Event Styling */
 
+h2,
 h3,
 h4,
 h5 {
@@ -192,8 +185,13 @@ h5 {
   justify-content: space-evenly;
 }
 
+.eventVenue {
+  font-size: 1.9rem;
+}
+
 .eventSpacer {
   padding-bottom: 40px;
+  text-decoration: overline;
 }
 
 /* Contact Styling */
