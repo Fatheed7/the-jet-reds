@@ -38,10 +38,12 @@
         style="background-color: #9b3545"
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href=""
+          <a
+            class="navbar-brand"
+            href="https://fatheed7.github.io/the-jet-reds/"
             ><img
               src="assets/img/JR_logo.png"
-              alt="The Jet Reds logo."
+              alt="The Jet Reds logo - Refreshes the page."
               id="navImage"
           /></a>
           <button
@@ -386,6 +388,7 @@
                 class="form-control"
                 id="nameField"
                 placeholder="Please enter your full name"
+                aria-label="Your name."
                 required
               />
             </div>
@@ -397,6 +400,7 @@
                 class="form-control"
                 id="emailField"
                 placeholder="Please enter a valid email address"
+                aria-label="Your email address."
                 aria-describedby="emailInfo"
                 required
               />
@@ -433,14 +437,23 @@
                 id="furtherInfoBox"
                 rows="3"
                 placeholder="Please use this box to provide any further information about your reason for contacting us"
+                aria-label="Provide any further information."
                 required
               ></textarea>
             </div>
             <div class="col text-center">
-              <button type="submit" class="btn btn-primary formButtons">
+              <button
+                type="submit"
+                class="btn btn-primary formButtons"
+                aria-label="Submit"
+              >
                 Submit
               </button>
-              <button type="reset" class="btn btn-warning formButtons">
+              <button
+                type="reset"
+                class="btn btn-warning formButtons"
+                aria-label="Reset Form"
+              >
                 Reset
               </button>
             </div>
@@ -497,16 +510,19 @@
               href="https://www.facebook.com/TheJetRedsUK/"
               target="_blank"
               rel="noreferrer"
+              aria-label="Visit the Jet Reds Facebook Page (opens in a new tab)"
               ><i class="fab fa-facebook-square"></i></a
             ><a
               href="https://twitter.com/ThejetredsO"
               target="_blank"
               rel="noreferrer"
+              aria-label="Visit the Jet Reds Twitter Page (opens in a new tab)"
               ><i class="fab fa-twitter-square"></i></a
             ><a
               href="https://www.instagram.com/thejetreds"
               target="_blank"
               rel="noreferrer"
+              aria-label="Visit the Jet Reds Instagram Page (opens in a new tab)"
               ><i class="fab fa-instagram-square"></i
             ></a>
           </div>

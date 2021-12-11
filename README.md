@@ -395,6 +395,40 @@ The site was created using Visual Studio Code and GitHub, and deployed to GitHub
 
 ## Testing
 
+- ## Validator Testing
+
+The website was tested using the tools made available by the [World Wide Web Consortium](https://www.w3.org/), also known as "W3C".
+
+The two tools used were the [Markup Validation Service](https://validator.w3.org/#validate_by_uri) and the [CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_uri). Both tools were used to test the website by URL and also by direct input, with the results shown below.
+
+No errors were returned for all HTML or CSS across all tests. Some warnings were displayed.
+
+ <details>
+  <summary>HTML Validation by URL</summary>
+
+![HTML Validation by URL](docs/readme_images/validation/markup_url.png)
+
+  </details>
+ <details>
+  <summary>HTML Validation by Direct Input</summary>
+
+![HTML Validation by Direct Input](docs/readme_images/validation/markup_direct.png)
+
+  </details>
+
+  <details>
+  <summary>CSS Validation by URL</summary>
+
+![CSS Validation by URL](docs/readme_images/validation/css_url.png)
+
+  </details>
+ <details>
+  <summary>CSS Validation by Direct Input</summary>
+
+![CSS Validation by Direct Input](docs/readme_images/validation/css_direct.png)
+
+  </details>
+
 #
 
 ## Credits
