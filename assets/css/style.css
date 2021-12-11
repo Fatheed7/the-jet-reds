@@ -90,6 +90,15 @@ h5 {
   font-family: "Roboto", sans-serif;
 }
 
+.aboutSectionHeader {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
 .mediaText,
 .eventText,
 .contactText {
