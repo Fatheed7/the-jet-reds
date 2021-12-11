@@ -28,11 +28,14 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
   - [Footer](#footer)
 - [Deployment](#deployment)
 - [Testing](#testing)
+  - [Validator Testing](#validator-testing)
+  - [Manual Testing](#validator-testing)
+  - [Bugs](#bugs)
 - [Credits](#credits)
   - [Languages](#languages)
   - [Frameworks, Libraries and Tools](#frameworks-libraries-and-tools)
   - [Images](#images)
-- [Content](#content)
+  - [Content](#content)
 
 ## UX and UI
 
@@ -147,6 +150,7 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
 
 - The Navbar has a fixed position at the head of the page which sits above all other content. This was chosen over a sticky position mainly for browers compatibility, but it's function does not vary in any significant way to a fixed position.
 - To ensure the content sat below the header, a margin was added to the top of the page. More information about this can be found in the [Bugs](#bugs) section.
+- Sass was used to override the default colour of the links, with a shadow added to contrast against the background colour of the navbar.
 
 #
 
@@ -160,7 +164,7 @@ The website can be [found here](https://fatheed7.github.io/the-jet-reds/).
 
 #
 
-- The Navbar contains links to other section on the website. They are designed to be displayed as clickable links, changing to a brighter shade of white when hovered over.
+- The Navbar contains links to other section on the website. They are designed to be displayed as clickable links, with an overline attribute applied to the element when the user hovers over a link.
 
 ![Navbar Mouseover Image](docs/readme_images/navbar_mouseover.png)
 
@@ -393,7 +397,11 @@ The site was created using Visual Studio Code and GitHub, and deployed to GitHub
     vi. Deployment should be confirmed by a message on a green background - The message should have a green tick mark followed by "Your site is published at" followed by the web address.
     vii. Confirm deployment by navigating to the displayed web address.
 
+#
+
 ## Testing
+
+#
 
 - ## Validator Testing
 
@@ -431,6 +439,54 @@ No errors were returned for all HTML or CSS across all tests. Some warnings were
 
 #
 
+- ## Manual Testing
+
+  The site was tested manually across a range of devices to ensure all links and styling work correctly and to ensure responsiveness across a range of devices. All features on the page were tested, especially the javascript element, to ensure functionality was not impacted in any way. Testing was carried out on multiple browsers such as Google Chrome, Microsoft Edge, Mozilla Firefox, Safari and Opera. Testing was carried out on an Apple iPhone, Apple iPhone 13, Samsung Galaxy S20 FE, Samsung Galaxy A51, Apple iPad Pro & Windows 10 Desktops.
+
+  [LambdaTest.com](https://www.lambdatest.com/) was used for cross browser testing.
+
+  #
+
+  - ## Lighthouse Testing
+
+  ![Lighthouse Test Result Image](docs/readme_images/lighthouse.png)
+
+  A test was ran using Lighthouse within Google Chrome to verify performance and accessibility standards were met and to ensure best practices were followed.
+
+  The full report can be viewed [here](docs/lighthouse.pdf).
+
+  #
+
+  - ## Wave Testing
+
+  ![Wave Test Result Image](docs/readme_images/wave.png)
+
+  A further test was ran using the Web Accessibility Evaluation Tool (WAVE) to ensure no errors were returned and to verify that no constrast issues existed on the site. This was an important step to ensure that users with disabilities were not negatively impacted by the design of the site and that the relevant standards have been met.
+
+  A full version of the test can be viewed [here](https://wave.webaim.org/report#/https://fatheed7.github.io/the-jet-reds/).
+
+  #
+
+- ## Bugs
+
+  - ## Section Header obscured on page scrolling
+
+    A bug was discovered that resulted in the header of a section being obscured if the user clicked a link on the navbar. On clicking the link, the page would scroll, but it did not account for the space taken up by the navbar itself, obscuring the header as seen in the image below.
+
+    ![Header Bug Before Resolution](docs/readme_images/header_bug.png)
+
+    Research was carried out on this bug and a resolution was found in an existing CSS property on the documentation made available on the [Mozilla MDN Web Docs website](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-top).
+
+    The below code was added to the ID tags of each link and was used to define the scroll snap area on each section of the page. Adding this code resolved this issue as seen in the below image.
+
+    Code used to resolve display issue:
+
+    ```
+    scroll-margin-top: 3.7rem;
+    ```
+
+    ![Header Bug After Resolution](docs/readme_images/header_bug_resolved.png)
+
 ## Credits
 
 #
@@ -457,10 +513,15 @@ No errors were returned for all HTML or CSS across all tests. Some warnings were
   - [GitHub](https://github.com/) - Used for version control and hosting.
   - [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
   - [JQuery](https://en.wikipedia.org/wiki/JQuery) - Used to override default submit functionality and display modal instead.
-  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Used for consistent code formatting
+  - [LambdaTest](https://www.lambdatest.com/) - Used for Cross Site Browser Testing.
+  - [Lite-Server](https://www.npmjs.com/package/lite-server) - Used to host website locally to aid testing before updates were commited to GitHub.
+  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Used for consistent code formatting.
+  - [Sass](https://sass-lang.com/) - Used to override existing Bootstrap variables to enhance readability.
   - [Slack](https://slack.com/) - Used for support and advice from the Code Insitute Community.
   - [TinyPNG](https://tinypng.com/) - Used to compress images to reduce filesize without a reduction in quality.
   - [Visual Studio Code](https://code.visualstudio.com/) - Application used for development of this site.
+  - [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
+  - [WAVE](https://wave.webaim.org/) - Used for Accessibility evaluation.
 
 - ## Images
 
