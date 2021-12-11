@@ -61,6 +61,11 @@ h5 {
 
 .nav-item {
   text-align: center;
+  text-shadow: 2px 2px #000000;
+}
+
+.nav-link:hover {
+  text-decoration: overline;
 }
 
 /* Carousel Styling */

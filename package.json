@@ -1,0 +1,35 @@
+{
+  "name": "the-jet-reds",
+  "version": "1.0.0",
+  "description": "The Jet Reds Website",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "compile:sass": "sass scss:assets/css",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fatheed7/the-jet-reds.git"
+  },
+  "keywords": [
+    "the",
+    "jet",
+    "reds"
+  ],
+  "author": "Fatheed7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fatheed7/the-jet-reds/issues"
+  },
+  "homepage": "https://github.com/Fatheed7/the-jet-reds#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "sass": "^1.45.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
