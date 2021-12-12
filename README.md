@@ -433,6 +433,8 @@ No errors were returned for all HTML or CSS across all tests. Some warnings were
 
   The site was tested manually across a range of devices to ensure all links and styling work correctly and to ensure responsiveness across a range of devices. All features on the page were tested, especially the javascript element, to ensure functionality was not impacted in any way. Testing was carried out on multiple browsers such as Google Chrome, Microsoft Edge, Mozilla Firefox, Safari and Opera. Testing was carried out on an Apple iPhone, Apple iPhone 13, Samsung Galaxy S20 FE, Samsung Galaxy A51, Apple iPad Pro & Windows 10 Desktops.
 
+  The website was also tested in Internet Explorer 11, where some performance and layout issues are present. I was unable to resolve these as Internet Explorer 11 is not supported by Bootstrap 5.
+
   [LambdaTest.com](https://www.lambdatest.com/) was used for cross browser testing.
 
   #
